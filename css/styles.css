@@ -1,0 +1,24 @@
+.masthead {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #3b3b3b 100%), url("../img/bg-masthead.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+.map-section {
+    background-color: #3b3b3b;
+    padding-bottom: 50px;
+}
+
+.figure-box {
+    background-color: gray;
+    height: 500px;
+    padding: 100px 50px 100px 50px;
+    margin-bottom: 100px;
+}
