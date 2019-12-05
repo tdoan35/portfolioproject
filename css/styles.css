@@ -42,14 +42,10 @@
     padding: 4rem 2rem;
 }
 
-.back-graybox {
-    background-color: lightgray;
-}
-
-.back-whitebox{
-    background-color: white;
-}
-
 .wrap {
-    padding: 50px;
+    padding: 40px 80px 40px 80px;
+}
+
+.no-padding {
+    padding: 0px;
 }
