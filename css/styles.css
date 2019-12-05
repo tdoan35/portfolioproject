@@ -16,16 +16,20 @@
     padding-bottom: 50px;
 }
 
+.aboutus-section {
+    padding-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.blog-section{
+    margin-bottom: 8rem;
+}
+
 .figure-box {
     background-color: gray;
     height: 500px;
     padding: 100px 50px 100px 50px;
     margin-bottom: 100px;
-}
-
-.aboutus-section {
-    padding-top: 8rem;
-    margin-bottom: 8rem;
 }
 
 .fakeimg {
@@ -36,4 +40,16 @@
 .site-footer{
     background: #e9ecef;
     padding: 4rem 2rem;
+}
+
+.back-graybox {
+    background-color: lightgray;
+}
+
+.back-whitebox{
+    background-color: white;
+}
+
+.wrap {
+    padding: 50px;
 }
