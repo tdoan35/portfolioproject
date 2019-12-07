@@ -19,7 +19,7 @@
 
     <body>
         <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand" href="index.html">Tea & Jay</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -155,6 +155,23 @@
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!-- Script for Transparent to Solid Navbar -->
+        <script>
+            $(document).ready(function() {
+            // Transition effect for navbar 
+                $(window).scroll(function() {
+                    // checks if window is scrolled more than 500px, adds/removes solid class
+                    if($(this).scrollTop() > 500) { 
+                        $('#mainNav').removeClass("bg-transparent");
+                        $('#mainNav').addClass("bg-dark");
+                    } else {
+                        $('#mainNav').removeClass("bg-dark");
+                        $('#mainNav').addClass("bg-transparent");
+                    }
+                });
+            });
+        </script>
 
     </body>
 </html>
