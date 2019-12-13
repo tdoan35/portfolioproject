@@ -49,3 +49,7 @@
 .no-padding {
     padding: 0px;
 }
+
+.card {
+    border-radius: 0;
+}
